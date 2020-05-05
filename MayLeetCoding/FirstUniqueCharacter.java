@@ -1,5 +1,9 @@
 package MayLeetCoding;
 
+/*
+LeetCode challenge for 6th May 2020. You are given a string and you have to return the index of the first non repeatinf character.
+ */
+
 class FirstUniqueCharacter {
     public static int firstUniqueChar(String s) {
         int[] cnt_arr = new int[26];
