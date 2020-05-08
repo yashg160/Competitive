@@ -1,5 +1,11 @@
 public class CheckStraightLine {
 
+    /*
+     * You are given a set of coordinates, as a 2d array. Find whether the points
+     * lie on the same line. I used the simple formula for the slope of a line to
+     * chec whether the points lie on the same line or not.
+     */
+
     public static double findSlope(int[] set1, int[] set2) {
         return ((double) set1[1] - (double) set2[1]) / ((double) set1[0] - (double) set2[0]);
     }
